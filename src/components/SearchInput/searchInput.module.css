@@ -1,0 +1,35 @@
+.searchContainer {
+  position: relative;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  fill: #121111;
+  cursor: pointer;
+}
+
+.searchInput {
+  width: calc(100% - 20px);
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+@media (max-width: 700px) {
+  .searchInput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .searchIcon {
+    left: 10px;
+    top: 20px;
+  }
+}

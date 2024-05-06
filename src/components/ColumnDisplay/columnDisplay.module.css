@@ -1,0 +1,13 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .cardContainer {
+    flex-direction: column;
+  }
+}

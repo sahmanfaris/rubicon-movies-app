@@ -1,7 +1,18 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template offers a streamlined configuration for setting up React in Vite, complete with Hot Module Replacement (HMR) and essential ESLint rules.
 
-1. Create a .env file in the root directory and add your MovieDB API token as VITE_MOVIEDB_TOKEN.
+To get started:
 
-2. Run `npm run dev` to start the development server.
+1. Set up your environment variables:
+
+- Create a .env file in the root directory.
+- Add your MovieDB API token as VITE_MOVIEDB_TOKEN within this file.
+
+2. Install dependencies:
+
+- Run `npm install` to install the required dependencies.
+
+3. Start the development server:
+
+- Execute `npm run dev` to launch the development server.
